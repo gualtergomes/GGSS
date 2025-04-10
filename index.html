@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gualter Gomes - Sistema de Segurança</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #f4f4f4;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 250px;
+    }
+    nav {
+      background: #c00;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .services {
+      background: #f9f9f9;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+    form {
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin-bottom: 1rem;
+      padding: 10px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 10px;
+      background-color: #c00;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      text-decoration: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Gualter Gomes - Sistema de Segurança">
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="inicio">
+    <h1>Bem-vindo à Gualter Gomes Sistema de Segurança</h1>
+    <p>Especialistas em soluções de segurança e elétrica com atendimento completo e personalizado.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Com anos de experiência no setor, oferecemos serviços confiáveis de instalação e manutenção em elétrica, segurança eletrônica e energia solar.</p>
+  </section>
+
+  <section id="servicos" class="services">
+    <h2>Nossos Serviços</h2>
+    <ul>
+      <li>Instalações elétricas residenciais, prediais e industriais</li>
+      <li>Alarmes e câmeras CFTV</li>
+      <li>Cerca elétrica e concertina</li>
+      <li>Motores de portão, fechaduras digitais e travas</li>
+      <li>Vídeo porteiros e interfones</li>
+      <li>Cabeamento de infraestrutura</li>
+      <li>Energia solar</li>
+      <li>Instalação e manutenção em geral</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Fotos</h2>
+    <div class="gallery">
+      <img src="foto1.jpg" alt="Serviço 1">
+      <img src="foto2.jpg" alt="Serviço 2">
+      <img src="foto3.jpg" alt="Serviço 3">
+      <img src="foto4.jpg" alt="Serviço 4">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Telefone: (47) 99268-0579 | (92) 99322-8092</p>
+    <p>Email: gualtergomes78@gmail.com</p>
+    <p>Endereço: Rua General Osório, 318 - Guarani Centro</p>
+    <p>Redes Sociais: @gualtergomes (Facebook e Instagram)</p>
+
+    <h3>Fale Conosco</h3>
+    <form action="https://formsubmit.co/gualtergomes78@gmail.com" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <h3>Localização</h3>
+    <div style="width: 100%; height: 300px;">
+      <iframe src="https://www.google.com/maps?q=Rua+General+Os%C3%B3rio+318+Guarani+Centro&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gualter Gomes Sistema de Segurança. Todos os direitos reservados.</p>
+  </footer>
+
+  <a class="whatsapp-button" href="https://wa.me/5547992680579" target="_blank">&#x2709;</a>
+</body>
+</html>
